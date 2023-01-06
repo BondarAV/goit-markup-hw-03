@@ -1,0 +1,236 @@
+:root {
+    --accent-color: #4D5AE5;
+    --dark-accent-color: #404BBF;
+    --main-text-color: #2E2F42;
+    ---secondary-text-color: #434455;
+    ---white-color: #FFFFFF;
+    --main-background-color: #F4F4FD;
+    --secondary-background-color: #E7E9FC;
+
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+}
+
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 16px;
+
+    letter-spacing: 0.02em;
+    
+    color: var(--main-text-color);
+}
+
+.header-logo {
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--accent-color);
+
+    cursor: pointer;
+}
+
+.header-logo .logo-part {
+    color: var(--main-text-color);
+}
+
+.nav-list .link {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: var(--main-text-color);
+
+    cursor: pointer;
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus {
+    color: var(--accent-color);
+}
+
+.contacts-list .link{
+    font-family: var(--main-font);
+    font-weight: 400;
+    line-height: 1.5px;
+
+    color: var(---secondary-text-color);
+}
+
+.contacts-list .link:hover,
+.contacts-list .link:focus {
+    color: var(--accent-color);
+}
+
+.hero {
+    background-color: var(--main-text-color);
+}
+
+.hero .hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+
+    letter-spacing: 0.02em;
+    text-align: center;
+
+    color: var(---white-color);
+}
+
+.hero .button {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.18;
+
+    align-items: center;
+    letter-spacing: 0.04em;
+    
+    color: var(---white-color);
+    background-color: var(--accent-color);
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+.hero .button:hover,
+.hero .button:focus {
+    background-color: var(--dark-accent-color);
+}
+
+.benefits-section .hidden-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.benefits-section .title,
+.portfolio-section .title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+
+    letter-spacing: 0.02em;
+}
+
+.benefits-section .paragraph,
+.portfolio-section .paragraph {
+    line-height: 1.5;
+
+    color: var(---secondary-text-color);
+}
+
+.what-are-we-doing-section .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+
+    letter-spacing: 0.02em;
+    
+    text-align: center;
+}
+
+.our-team-section {
+    background-color: var(--main-background-color);
+}
+
+.our-team-section > .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+
+    letter-spacing: 0.02em;
+    
+    text-align: center;
+}
+
+.our-team-list .title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+
+    letter-spacing: 0.02em;
+}
+
+.our-team-list .paragraph {
+    line-height: 1.5;
+
+    letter-spacing: 0.02em;
+
+    color: var(---secondary-text-color);
+}
+
+.footer {
+    background-color: var(--main-text-color);
+}
+
+.footer-logo {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--accent-color);
+}
+
+.footer-logo .logo-part {
+    color: var(--main-background-color);
+}
+
+.footer .paragraph {
+    line-height: 1.5;
+
+    letter-spacing: 0.02em;
+
+    color: var(--secondary-background-color);
+}
+
+.tab-list .button {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+
+    letter-spacing: 0.04em;
+
+    color: var(--accent-color);
+    background-color: var(--main-background-color);
+    border: 1px solid var(--secondary-background-color);
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+.tab-list .button:hover,
+.tab-list .button:focus {
+    color: var(---white-color);
+    background-color: var(--accent-color);
+}
+
+.nav-list .current {
+    color: var(--accent-color);
+}
